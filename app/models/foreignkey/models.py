@@ -17,6 +17,6 @@ class Manufacturer(models.Model):
         return self.name
 
 
-class User(models.Model):
+class ForeignKeyUser(models.Model):
     name = models.CharField(max_length=50)
     instructor = models.ForeignKey('self', on_delete=models.SET_NULL,related_name='student',blank=True, null=True)
