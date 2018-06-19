@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'models.fields.apps.FieldsConfig',
     'models.foreignkey.apps.ForeignkeyConfig',
     'models.many_to_many.apps.ManyToManyConfig',
+    'inheritance.abstract_base_classes.apps.AbstractBaseClassesConfig',
 
     'django.contrib.admin',
     'django.contrib.auth',
